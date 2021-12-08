@@ -8,12 +8,24 @@ This repository contains all the files and data from the project. For anything n
 Google Drive link - extra files and sprint presentations:
 https://drive.google.com/drive/u/1/folders/1jKGzOmRHx0YQrErTRjcG8uH9SL3HK8vk
 
-Project Overview:
+## Organization of GitHub Repo:
+
+A-LOAM: Files and code necessary to generate the map from recorded data
+DataAndPhotos: Containing resulting photos of map, registration, filtering, and path-planning
+FilterResearch: Research performed prior to finalization of code
+Jackal_ws: Zip files containing information on the robot, ros, and workspace
+PathPlanningFinal: Final path planning files and data used
+PathPlanningResearch: Research performed prior to finalization of code
+PointCloudResearch: General research on parsing point-cloud data
+Registration: Code and files necessary to run registration on data
+UsefulResources: Any resources and articles utilized to learn more about the topic
+
+## Project Overview:
 - Create a map of an unknown area in advance to facilitate further exploration
 - Collect information about the area, including position and volume, as well as obstacles within the area
 - Generate 3D point map of random area and plan trajectory through the area
 
-Implementation Structure:
+## Implementation Structure:
 The following lists the implementation structure. Listed next to each step will be the tools and software necessary to complete:
 1. Utilize robot with LiDAR to move through environment (Velodyne VLP-16 3D LiDAR)
 2. Record data and generate map (ALOAM Algorithm and ROS (C++))
