@@ -10,15 +10,24 @@ https://drive.google.com/drive/u/1/folders/1jKGzOmRHx0YQrErTRjcG8uH9SL3HK8vk
 
 ## Organization of GitHub Repo:
 
-A-LOAM: Files and code necessary to generate the map from recorded data
-DataAndPhotos: Containing resulting photos of map, registration, filtering, and path-planning
-FilterResearch: Research performed prior to finalization of code
-Jackal_ws: Zip files containing information on the robot, ros, and workspace
-PathPlanningFinal: Final path planning files and data used
-PathPlanningResearch: Research performed prior to finalization of code
-PointCloudResearch: General research on parsing point-cloud data
-Registration: Code and files necessary to run registration on data
-UsefulResources: Any resources and articles utilized to learn more about the topic
+###### A-LOAM
+Files and code necessary to generate the map from recorded data
+###### DataAndPhotos
+Containing resulting photos of map, registration, filtering, and path-planning
+###### FilterResearch
+Research performed prior to finalization of code
+###### Jackal_ws
+Zip files containing information on the robot, ros, and workspace
+######PathPlanningFinal
+Final path planning files and data used
+###### PathPlanningResearch
+Research performed prior to finalization of code
+###### PointCloudResearch
+General research on parsing point-cloud data
+###### Registration
+Code and files necessary to run registration on data
+###### UsefulResources
+Any resources and articles utilized to learn more about the topic
 
 ## Project Overview:
 - Create a map of an unknown area in advance to facilitate further exploration
