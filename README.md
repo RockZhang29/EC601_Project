@@ -18,7 +18,7 @@ Containing resulting photos of map, registration, filtering, and path-planning
 Research performed prior to finalization of code
 ###### Jackal_ws
 Zip files containing information on the robot, ros, and workspace
-######PathPlanningFinal
+###### PathPlanningFinal
 Final path planning files and data used
 ###### PathPlanningResearch
 Research performed prior to finalization of code
