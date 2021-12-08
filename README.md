@@ -34,6 +34,7 @@ The following lists the implementation structure. Listed next to each step will 
 5. Categorize obstacles and free space (Python)
 6. Plan trajectory through environment (Python, Rapidly-Explorng Random Tree (RRT) Path Planning Algorithm)
 
+## Conclusions & Future Research:
 In conclusion, we were able to successfully generate a point cloud map of the environment that acn represent obstacles and corners. The path planned can maneuver around the presented features as well. However, the LiDAR is not sensitive enough to pick up all the data, and therefore the path planning trajectory is not the optimal path. In general, the map has some bumps and room for improvement, as well as improving the path-planning algorithm.
 
 In the future, one may want to use a more advanced LOAM to improve the quality of the map. In addition, AI can be used to obtain better point cloud registration. Path-planning in real-time is the goal, and being able to do that while generating the map is the next step, as well as being able to navigate narrow passageways. A remaining future step would be to attempt this method on various other LiDAR vehicles to increase the flexibility and reusability of the method. 
