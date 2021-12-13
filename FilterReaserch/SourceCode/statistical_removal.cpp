@@ -21,7 +21,7 @@
   pcl::StatisticalOutlierRemoval<pcl::PointXYZ> sor;
   sor.setInputCloud (cloud);
   sor.setMeanK (50);
-  sor.setStddevMulThresh (1.0);
+  sor.setStddevMulThresh (0.5);
   sor.filter (*cloud_filtered);
 
   std::cerr << "Cloud after filtering: " << std::endl;
