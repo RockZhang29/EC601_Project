@@ -1,4 +1,4 @@
-# This README shows how to use one main filters used in the project
+# This README shows how to use one main filter used in the project
 The filter part is done in Ubuntu 18.04 with ROS melodic installed, besides, you need to install pcl tools to visualize the .pcd files
 
 So, do the following command in Linux terminal:
