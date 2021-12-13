@@ -49,3 +49,7 @@ So, do the following command in Linux terminal:
 9. Run command:
 
 `./statistic_removal`
+
+10. Run command to see the result:
+
+`pcl_viewer inliers.pcd`
